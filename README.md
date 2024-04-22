@@ -15,5 +15,3 @@ Depois de clonar esse repositório é necessario algumas configurações de setu
   - slack_sdk: pip install slack_sdk
   - pandas: pip install pandas
   - openpyxl: pip install openpyxl 
-
-- Step 3
