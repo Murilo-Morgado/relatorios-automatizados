@@ -24,7 +24,7 @@ Após clonar esse repositório é necessário algumas configurações de setup p
  
 Para usar a aplicação, você deve entrar no slack de teste criado para utilizar o bot.<br>
 
-O uso da aplicação é simples e intuitivo, basta você abrir o arquivo em uma IDE (Pycharm, VSCode, etc) e configurar o canal do slack que o bot vai buscar as mensagens (no meu caso teste-python-org)
+O uso da aplicação é simples e intuitivo, basta você abrir o arquivo em uma IDE (Pycharm, VSCode, etc) e configurar o canal do slack que o bot vai buscar as mensagens (no meu caso teste-python-org)<br>
 <img src="src/imgs/Canal.png" alt="Canal">
 
 ## Como modificar
