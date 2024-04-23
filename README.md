@@ -28,19 +28,19 @@ Usar a aplicação é simples e intuitivo, basta você abrir o arquivo em uma ID
 
 Após acessar o arquivo basta fazer uma configuração basica:
  - Configurar o canal do slack que o bot vai buscar as mensagens (no meu caso teste-python-org)
-![alt text](https://imgur.com/FXaKmow)
+![Canal](https://imgur.com/FXaKmow)
 
 
 ## Como modificar
 
 O processo de modificação do código é muito simples, basta adicionar algumas linhas para atender suas necessidades 
  - Indicar o índice que começa a String que você quer extrair
-![alt text](https://imgur.com/H9TjOHa)
+![indice](https://imgur.com/H9TjOHa)
  - Exemplo (indice_work = texto_mensagem.find("Work:")) vai encontrar onde começa "Work" na string de mensagens 
  - Limpar a string com strip e replace indicando o indice de inicio e fim para pegar só o valor relevante aquela variável
-![alt text](https://imgur.com/RfBse53)
+![Formatar](https://imgur.com/RfBse53)
 
 Além de mudar a formatação das mensagens você pode fazer inúmeras coisas com esse código para atender suas necessidades, o limite é sua imaginação.
 
 ## Exemplo de modificação
-![alt text](https://imgur.com/Clpf8zk)
+![Exemplo](https://imgur.com/Clpf8zk)
