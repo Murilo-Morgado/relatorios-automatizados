@@ -1,6 +1,6 @@
 # Gerador de Relatórios Automáticos  
 
-Após a criação do time de produtividade, nós os encarregados de gerar o plano de ação semanal, uma nova tarefa foi adicionada a nossas segundas e sextas.
+Após a criação do time de produtividade, nós os encarregados de gerar o plano de ação semanal, obtivemos uma nova tarefa foi adicionada a nossas segundas e sextas.
 Como qualquer outra tarefa a criação desses relatórios demanda tempo e pode nos custar horas preciosas no fim do mês, com isso em mente, pensamos em uma forma de auxiliar a equipe em finalizar essa tarefa de modo que esta se torne mais otimizada e eficiente, automatizando o processo de criação de relatórios por meio de uma aplicação em Python.
 
 A aplicação é simples e maleável, sendo de fácil instalação e modificação para casos específicos.
