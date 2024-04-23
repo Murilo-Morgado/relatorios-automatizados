@@ -35,12 +35,20 @@ Após acessar o arquivo basta fazer uma configuração basica:
 O processo de modificação do código é muito simples, basta adicionar algumas linhas para atender suas necessidades 
  - Indicar o índice que começa a String que você quer extrair
 <img src="(https://imgur.com/H9TjOHa)" alt="indice">
+ - Exemplo (indice_work = texto_mensagem.find("Work:")) vai encontrar onde começa "Work" na string de mensagens
 
- - Exemplo (indice_work = texto_mensagem.find("Work:")) vai encontrar onde começa "Work" na string de mensagens 
+  
  - Limpar a string com strip e replace indicando o indice de inicio e fim para pegar só o valor relevante aquela variável
 <img src="(https://imgur.com/RfBse53)" alt="Formatar">
 
 Além de mudar a formatação das mensagens você pode fazer inúmeras coisas com esse código para atender suas necessidades, o limite é sua imaginação.
 
 ## Exemplo de modificação
+
+Novo índice:
+indice_task = texto_mensagem.find("Task:")
+Nova variavel:
+task = texto_mensagem[indice_task:indice_descricao].strip().replace("Task:", "").strip()
+
+Hyperlinks automáticos:
 <img src="(https://imgur.com/Clpf8zk)" alt="Exemplo">
