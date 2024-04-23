@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 # Define o token de acesso do Slack
-token_acesso_slack = 'xoxb-6961128526948-6944155784727-C19oWQ8wweuANPIdO0tnfqdE'
+token_acesso_slack = 'TOKEN_AQUI'
 
 # Inicializa o WebClient com o token de acesso do Slack
 cliente_slack = WebClient(token=token_acesso_slack)
@@ -14,7 +14,7 @@ cliente_slack = WebClient(token=token_acesso_slack)
 logger = logging.getLogger(__name__)
 
 # Nome do canal que estamos procurando
-nome_canal = "sdv-plano"
+nome_canal = "CANAL_AQUI"
 
 # Variável para armazenar o ID da conversa (canal)
 id_conversa = None
